@@ -32,4 +32,7 @@ function getInputByID(inputID) {
 function setInnerTextByID(elementId, text) {
     const element = document.getElementById(elementId);
     element.innerText = text;
+
+    const para = document.getElementById('t-3');
+    para.value = text;
 }

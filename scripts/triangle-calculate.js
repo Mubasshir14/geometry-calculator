@@ -13,4 +13,8 @@ function calculateTriangleArea(){
     // console.log(area);
     const triangleAreaSpan = document.getElementById('triangle-area');
     triangleAreaSpan.innerText = area;
+
+    const triangleAreaInput = document.getElementById('t-1');
+    triangleAreaInput.value = area;
+
 }

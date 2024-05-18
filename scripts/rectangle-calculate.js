@@ -12,4 +12,7 @@ function calculateRectangleArea(){
 
     const rectangleAreaSpan = document.getElementById('rectangle-area');
     rectangleAreaSpan.innerText = area;
+
+    const rec = document.getElementById('t-2');
+    rec.value = area;
 }
